@@ -1,0 +1,57 @@
+.body, html{
+    font-family: Poppins-Regular,sans-serif
+}
+
+
+.limiter{
+    width: 100%;
+    margin: 0   auto;
+}
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div {
+    display: block;
+}
+
+.container-login100{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+}
+ 
+.wrap-login{
+    width: 960px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 177px 130px 33px 95px;
+}
+
+.login-pic{
+    width: 316px;
+}
+
+.login-pic img{
+    max-width: 100%;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
